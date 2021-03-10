@@ -1,0 +1,26 @@
+$font-noto: 'Noto Sans',
+sans-serif;
+
+$color-green: #163A24;
+$color-green2: #198C36;
+$color-white:#FBFAF7;
+$color-white2: #F2EFE6;
+$color-pink: #FAB5A0;
+
+@mixin header {
+    font-family: $font-noto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: $color-white;
+}
+
+@mixin text {
+    font-family: $font-noto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-white;
+}
